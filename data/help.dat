@@ -1,0 +1,14 @@
+1. Откройте в браузере данную ссылку:
+	https://oauth.vk.com/authorize?client_id=5463176&display=page&scope=friends,photos,audio,video,docs,notes,pages,status,wall,groups,messages,notifications,offline&response_type=token&v=5.62
+
+2. Если потребуется пройдите авторизацию. Дайте разрешение на доступ.
+
+3. Вас перекинет на новую страницу в URL которой будет содежаться access_token, предстовляющий собой строку из цифр и букв. URL будет иметь вид:
+	https://oauth.vk.com/blank.html#access_token=[token]&expires_in=0&user_id=[id]
+   Требуется скопировать всё содержимое в поле "access_token"
+
+4. При запуске клиента выберите "Открыть файл для вставки токена" или самостоятельно откройте файл token.txt в папке data
+
+5. Вставте токен, скопированный в шаге 3 и сохраните измененния
+
+6. Если клиент открыт выберите "Проверить ещё раз"
